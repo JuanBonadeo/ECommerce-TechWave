@@ -1,0 +1,7 @@
+.Hero2Container{
+    height: min-content;
+    padding: 2em 1em;
+    background-color: #e7e7e7;
+}.Hero2Container h2{
+    padding-bottom: .5em;
+}

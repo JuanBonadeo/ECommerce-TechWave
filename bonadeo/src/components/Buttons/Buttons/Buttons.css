@@ -1,0 +1,35 @@
+.button{
+    background-color: #081f2d; 
+    border-radius: 15px; 
+    border: 1px solid #081F2D; 
+    color: white;
+    height: 2.3em; 
+    width: min-content;
+    inline-size: max-content;
+    padding: 0em 1em; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    }
+    
+    .button:hover{ 
+    background-color: white; 
+    color: #081F2D; 
+    border-color: #081F2D; 
+    transition: 0.3s; 
+   }
+   @media (max-width: 1100px ){
+    .button{
+        height: 1.8em; 
+        padding: 0em .5em; 
+        }
+   }
+
+   .DarkModeB{
+    background-color: #f5f5f5; 
+    border: 1px solid #081F2D; 
+    color: #081F2D;
+   }.DarkModeB:hover{
+    background-color: #081F2D; 
+    color: #f5f5f5; 
+    border-color: #f5f5f5; 
+   }

@@ -1,0 +1,36 @@
+.MarcasCards{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+    width: 10em;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}.imageCard{
+    height: 4em;
+    width: 7em;
+    margin-top: 0em;
+    filter: brightness(80%);
+    
+}.MarcasCardsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+    background-color: #e7e7e7;
+    height: min-content;
+}.MarcasCards:hover{
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    -o-box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}.imageCard:hover{
+    filter: brightness(130%);
+}
+@media (max-width: 1100px ){
+    .MarcasCardsContainer{
+        gap: .5em;
+    }
+}

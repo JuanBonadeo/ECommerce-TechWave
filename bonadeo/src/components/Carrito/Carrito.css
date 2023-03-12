@@ -1,0 +1,13 @@
+.carrito{
+    display: flex;
+    align-items: center;
+    padding: 3px 4px;
+    border: solid 1.5px #081F2D;border-radius: 50px;
+    font-size: 1em;
+    transition: all 500ms ease-in-out;
+}.carrito:hover{
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #081F2D;
+    border-radius: 0;
+}

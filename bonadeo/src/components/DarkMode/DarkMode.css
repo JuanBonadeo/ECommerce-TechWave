@@ -1,0 +1,29 @@
+.btnDarkModeImg{
+    height: 30px;
+    width: 30px;
+}.btnDarkMode{
+    height: 2.5em;
+    width: 2.5em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white; 
+    border-radius: 30px;
+    transition: ease-in-out 350ms;
+    border: solid 2px #081F2D;
+}.btnDarkMode:hover{ 
+    background-color:  #081F2D;
+    color: #081F2D; 
+    border-color: #8a8a8a; 
+    transition: 0.3s; 
+   }
+
+   @media (max-width: 1100px ){
+    .btnDarkModeImg{
+        height: 20px;
+        width: 20px;
+    }
+
+
+   }
