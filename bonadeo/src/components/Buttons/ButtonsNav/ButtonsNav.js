@@ -1,7 +1,7 @@
 import '../ButtonsNav/ButtonsNav.css'
 const ButtonNav = (props) => {
     return(
-        <a className="buttonNav DarkModeBN">{props.label}</a>
+        <a className="buttonNav">{props.label}</a>
     )
 }
 export default ButtonNav

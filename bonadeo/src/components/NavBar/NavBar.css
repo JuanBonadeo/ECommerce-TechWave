@@ -1,12 +1,11 @@
 .upNav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
   }
-  .nav{
+  .Nav{
     background-color: rgb(255, 255, 255);
-    position: sticky;
     top: 0;
   }.paddingTop{
     margin-top: 1em;
@@ -15,10 +14,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }.categorias ul li {  
-    padding: 0 1em;
+    margin-right: 4em;
+  }.categorias ul li { 
+    display: flex;
+    padding: 0 .5em;
     list-style: none;
     margin-bottom: .5em;
+  }.Dropdown{
+    margin-right: -.5em;
   }
   .fixedNav {
     position: sticky;
@@ -27,7 +30,7 @@
     margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #ffffff;
     padding: .2em 0;

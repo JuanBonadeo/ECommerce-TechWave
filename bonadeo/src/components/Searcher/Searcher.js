@@ -1,7 +1,7 @@
 import '../Searcher/Searcher.css'
 const Searcher = () =>{
     return(
-        <input className="search__input DarkModeSearcher" type="text" placeholder="Buscar"/>
+        <input className="search__input" type="text" placeholder="Buscar"/>
     )
 }
 

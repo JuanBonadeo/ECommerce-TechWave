@@ -9,17 +9,21 @@
     align-items: center;
     color: #081F2D;
     transition: ease-out 300ms;
-}.ProductcardContainer:hover{
+}
+.NombreProducto, .PrecioProducto{
+    font-size: 1em;
+}
+.ProductcardContainer:hover{
     box-shadow: 1px 1px 38px 2px rgba(60,59,59,1);
     -webkit-box-shadow: 1px 1px 38px 2px rgba(60,59,59,1);
     -moz-box-shadow: 1px 1px 38px 2px rgba(60,59,59,1);
 }
 .Info1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1em;
+    
 }.Info2{
     margin-top: 0em;
 }

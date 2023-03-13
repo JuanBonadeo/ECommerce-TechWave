@@ -1,4 +1,4 @@
-.button{
+.Button{
     background-color: #081f2d; 
     border-radius: 15px; 
     border: 1px solid #081F2D; 
@@ -11,14 +11,14 @@
     transition: 0.3s; 
     }
     
-    .button:hover{ 
+    .Button:hover{ 
     background-color: white; 
     color: #081F2D; 
     border-color: #081F2D; 
     transition: 0.3s; 
    }
    @media (max-width: 1100px ){
-    .button{
+    .Button{
         height: 1.8em; 
         padding: 0em .5em; 
         }
