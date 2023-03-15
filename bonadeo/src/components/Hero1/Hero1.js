@@ -1,12 +1,13 @@
 import '../Hero1/Hero1.css'
 import Carousel from 'react-bootstrap/Carousel';
 import Button from '../Buttons/Buttons/Buttons'
+// import CarouselSide from '../CarouselSide/CarouselSide';
+// import side1 from '../CarouselSide/images/side1.jpg'
+// import side2 from '../CarouselSide/images/side2.jpg'
+// import side3 from '../CarouselSide/images/side3.jpg'
+
 const Hero1 = () =>{
     return(
-        // <div className="Hero1Container">
-        //     <h2>Lo mejor en tecnologia
-        //         de las mejores marcas.</h2>
-        // </div>
         <Carousel>
         <Carousel.Item className='Hero1Container'>
           <img
@@ -18,7 +19,8 @@ const Hero1 = () =>{
             <h3>Los mejores smartphones</h3>
             <Button label="Ver Mas"></Button>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> 
+
         <Carousel.Item className='Hero1Container'>
           <img
             className="d-block w-100"
@@ -31,6 +33,7 @@ const Hero1 = () =>{
             <Button label="Ver Mas"></Button>
           </Carousel.Caption>
         </Carousel.Item>
+        
         <Carousel.Item className='Hero1Container'>
           <img
             className="d-block w-100"

@@ -1,0 +1,9 @@
+.Rango{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}.Rango input{
+    width: 70px;
+    height: 1.4em;
+}

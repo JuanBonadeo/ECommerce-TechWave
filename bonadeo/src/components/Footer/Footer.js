@@ -1,6 +1,9 @@
 import '../Footer/Footer.css'
 import ButtonNav from '../Buttons/ButtonsNav/ButtonsNav.js'
 import ButtonIcon from '../Buttons/ButtonIcon/ButtonIcon.js'
+import ButtonSocialM from '../Buttons/ButtonSocialM/ButtonSocialM'
+
+
 const Footer = () => {
     return(
         <footer>
@@ -20,11 +23,13 @@ const Footer = () => {
 
             
             <div className='footer2'>
-                <ButtonIcon icon="https://cdn-icons-png.flaticon.com/512/3955/3955024.png"/>
-                <ButtonIcon icon="https://cdn-icons-png.flaticon.com/512/3670/3670151.png"/>
-                <ButtonIcon icon="https://cdn-icons-png.flaticon.com/512/3621/3621450.png"/>
-                <ButtonIcon icon="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"/>
-                <ButtonIcon icon="https://cdn-icons-png.flaticon.com/512/3670/3670051.png"/>
+                <ButtonSocialM icon="faFacebook"></ButtonSocialM>
+                <ButtonSocialM icon="faInstagram"></ButtonSocialM>
+                <ButtonSocialM icon="faTiktok"></ButtonSocialM>
+                <ButtonSocialM icon="faWhatsapp"></ButtonSocialM>
+                <ButtonSocialM icon="faLinkedin"></ButtonSocialM>
+                
+                
             </div>
             <h5>© TECHWAVE, Inc. 2023. We love our users!</h5>
 
