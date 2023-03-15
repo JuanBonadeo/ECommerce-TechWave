@@ -63,7 +63,7 @@ const NavBar = () => {
                 </div>
             </div>
             <div className="fixedNav">
-                <ButtonIcon icon={faHome}/>
+                <ButtonIcon icon={faHome} talla="lg"/>
                 <Searcher/> 
                 <Carrito/>
             </div>

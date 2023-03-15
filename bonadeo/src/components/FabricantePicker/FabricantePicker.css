@@ -1,0 +1,7 @@
+.Toggle{
+    display: flex;
+    gap: .3em;
+    background: none;
+    border: none;
+    align-items: baseline;
+}

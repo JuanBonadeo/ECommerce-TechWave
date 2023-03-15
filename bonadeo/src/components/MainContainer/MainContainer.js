@@ -1,5 +1,5 @@
 import '../MainContainer/MainContainer.css'
-import ProductsContainer from '../../ProductsContainer/ProductsContainer'
+import ProductsContainer from '../ProductsContainer/ProductsContainer'
 import SideBar from '../SideBar/SideBar'
 
 

@@ -1,6 +1,6 @@
 import '../RangoPrecio/RangoPrecio.css'
 import ButtonIcon from '../Buttons/ButtonIcon/ButtonIcon';
-import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight} from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -14,7 +14,7 @@ function RangoPrecio(prop) {
         <input placeholder="Mínimo" value="" ></input>
         -
         <input placeholder="Maximo" value="" ></input>
-        <ButtonIcon icon={faArrowAltCircleRight}/>
+        <ButtonIcon icon={faArrowRight} talla="md"/>
       </div>
       
     </div>

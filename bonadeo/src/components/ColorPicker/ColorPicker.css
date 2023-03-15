@@ -9,9 +9,13 @@ width: 30px;
 border-radius: 100%;
 cursor: pointer;
 border: solid 1px ;
+transition: 100ms;
 }.colors div:hover{
-    outline: solid 3px #a79f9f;
-    border: solid 2px #a79f9f;
+    outline: solid 3px #ffffff;
+    border: solid 2px #ffffff;
+    box-shadow: 1px 1px 5px 2px rgba(60,59,59,1);
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(60,59,59,1);
+    -moz-box-shadow: 1px 1px 5px 2px rgba(60,59,59,1);
 }
 
 .red{

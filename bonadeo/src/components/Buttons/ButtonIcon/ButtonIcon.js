@@ -6,7 +6,7 @@ const ButtonIcon = (props) =>{
     return(
         <div>
             <button className="buttonIcon">
-            <FontAwesomeIcon icon={props.icon} size="lg" />
+            <FontAwesomeIcon icon={props.icon} size={props.talla} />
             </button>
         </div>
     )

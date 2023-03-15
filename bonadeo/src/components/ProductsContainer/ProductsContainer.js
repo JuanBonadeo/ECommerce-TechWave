@@ -1,6 +1,6 @@
-import '../ProductsContainer/ProductsContainer.css'
-import ProductCard from '../components/ProductCard/ProductCard'
-import Pagination from '../components/Pagination/Pagination'
+import './ProductsContainer.css'
+import ProductCard from '../ProductCard/ProductCard'
+import Pagination from '../Pagination/Pagination'
 const ProductsContainer = () =>{
  
       
