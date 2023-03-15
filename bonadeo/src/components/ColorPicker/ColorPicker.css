@@ -1,0 +1,29 @@
+.colors{
+    display: flex;
+    flex-direction: row;
+    gap: .3em;
+    margin-top: .3em;
+}.colors div{
+height: 30px;
+width: 30px;
+border-radius: 100%;
+cursor: pointer;
+border: solid 1px ;
+}.colors div:hover{
+    outline: solid 3px #a79f9f;
+    border: solid 2px #a79f9f;
+}
+
+.red{
+background-color: red ;
+}.blue{
+background-color: blue ;
+}.grey{
+background-color: grey ;
+}.black{
+background-color: black;
+}.white{
+background-color: white ;
+}.green{
+   background-color: green ; 
+}
