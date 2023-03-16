@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ECommerce-TechWave/static/css/main.7c71d87f.css",
+    "main.js": "/ECommerce-TechWave/static/js/main.8b59710c.js",
+    "static/js/787.e61a3ff3.chunk.js": "/ECommerce-TechWave/static/js/787.e61a3ff3.chunk.js",
+    "static/media/hero1.jpg": "/ECommerce-TechWave/static/media/hero1.255d280d24bedc737e9c.jpg",
+    "index.html": "/ECommerce-TechWave/index.html",
+    "main.7c71d87f.css.map": "/ECommerce-TechWave/static/css/main.7c71d87f.css.map",
+    "main.8b59710c.js.map": "/ECommerce-TechWave/static/js/main.8b59710c.js.map",
+    "787.e61a3ff3.chunk.js.map": "/ECommerce-TechWave/static/js/787.e61a3ff3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c71d87f.css",
+    "static/js/main.8b59710c.js"
+  ]
+}
