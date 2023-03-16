@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { getProducts } from "../../async.Mock"
 import ProductList from '../ProductList/ProductList'
 import Pagination from '../Pagination/Pagination'
+import OrderList from '../OrderList/OrderList'
 
 const ProductsContainer = () =>{
     const [products, setProducts] = useState([])
@@ -16,7 +17,13 @@ const ProductsContainer = () =>{
 
     return(
         <div className='ContentContainer'>
-            <h2 className='h2Container'>Nuestros Productos</h2>
+            <div className='ContentHeader'>
+                <div></div>
+                <h2 className='h2Container'>Nuestros Productos</h2>
+                <OrderList/>
+                
+            </div>
+            
                 <ProductList products={products}/>
             <Pagination/>
         </div>

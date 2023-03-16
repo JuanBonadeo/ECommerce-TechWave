@@ -1,0 +1,17 @@
+#selectOrden{
+font-size: .8em;
+color: #081F2D;
+border-radius: 15px;
+width: min-content;
+padding:  5px 0;
+height: min-content;
+transition: 350ms ease-in;
+}select option:hover{
+    background-color: #a7a7a7;
+    cursor: pointer;
+}
+.SelectOrderContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+}

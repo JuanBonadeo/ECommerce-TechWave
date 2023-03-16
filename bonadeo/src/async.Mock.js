@@ -1,7 +1,7 @@
 const products = [
     {
         id:'1',
-        nombre:'Apple iPhone 11 (128 GB)',
+        nombre:'Apple iPhone 11 128 GB 8gb RAM',
         precio: 315000,
         categoria: 'Celulares',
         img1:'https://http2.mlstatic.com/D_NQ_NP_2X_796892-MLA46114829828_052021-F.webp',

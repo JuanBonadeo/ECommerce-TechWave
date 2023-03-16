@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1.5em;
-    padding: 3em;
+    gap: 1.7em;
+    padding: 2em;
   }
 .h2Container{
     padding-top: 1em;
