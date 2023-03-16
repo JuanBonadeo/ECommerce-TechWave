@@ -5,7 +5,7 @@ import Button from '../Buttons/Buttons/Buttons'
 import Carousel from 'react-bootstrap/esm/Carousel'
 
 
-const ProductCard = (props) =>{
+const ProductCard = ({nombre, img1, img2, img3, precio}) =>{
     const [index, setIndex] = useState(0);
       
     const handleSelect = (selectedIndex, e) => {
@@ -15,19 +15,19 @@ const ProductCard = (props) =>{
         <div className='ProductcardContainer'>
             <Carousel fade activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item interval={100000000000000}>
-                 <img className="ProdcutImg" src={props.img}></img>   
+                 <img className="ProdcutImg" src={img1}></img>   
                 </Carousel.Item>
                 <Carousel.Item  interval={1000000000000}>
-                 <img className="ProdcutImg" src={props.img2}></img>   
+                 <img className="ProdcutImg" src={img2}></img>   
                 </Carousel.Item>
                 <Carousel.Item  interval={1000000000000}>
-                 <img className="ProdcutImg" src={props.img3}></img>   
+                 <img className="ProdcutImg" src={img3}></img>   
                 </Carousel.Item>
             </Carousel>
             
-            <h3 className='NombreProducto'>{props.label}</h3>
+            <h3 className='NombreProducto'>{nombre}</h3>
             <div className='Info1'>
-                <h3 className='PrecioProducto'>{props.precio}</h3>
+                <h3 className='PrecioProducto'>${precio}</h3>
                 <CarritoIcon/>
             </div>
             <div className='Info2'>
