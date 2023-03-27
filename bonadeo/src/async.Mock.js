@@ -206,6 +206,19 @@ const products = [
         color: 'verde',
         fabricante: 'razer',
         supcategoria:'accesorios'
+      },
+      {
+        id: '18',
+        nombre: 'Teclado gamer  Redragon Draconic K530 ',
+        precio: 30400,
+        categoria: 'mouses',
+        img1: 'https://http2.mlstatic.com/D_NQ_NP_2X_848157-MLA46503780617_062021-F.webp',
+        img2: 'https://http2.mlstatic.com/D_NQ_NP_2X_808615-MLA46503780618_062021-F.webp',
+        img3: 'https://http2.mlstatic.com/D_NQ_NP_2X_843834-MLA46503780619_062021-F.webp',
+        descripcion: 'Disfrutá de tus partidas en otro nivel con Redragon, marca reconocida que se especializa en brindar la mejor experiencia de juego al público gamer desde hace más de 20 años. Sus teclados se adaptan a todo tipo de jugadores y esto los convierten en un fiel reflejo de la alta gama y calidad que la compañía ofrece',
+        color: 'verde',
+        fabricante: 'razer',
+        supcategoria:'accesorios'
       }
 
 ]
