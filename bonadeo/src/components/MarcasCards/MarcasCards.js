@@ -1,10 +1,11 @@
 import '../MarcasCards/MarcasCards.css'
+import { Link } from 'react-router-dom'
 const MarcasCards = (props) =>{
     const {src} = props
     return(
-            <div className="MarcasCards">
+            <Link className="MarcasCards" to={props.to}>
                 <img className="imageCard" src={src}></img>
-            </div>
+            </Link>
     )
 }
 export default MarcasCards

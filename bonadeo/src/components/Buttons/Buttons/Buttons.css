@@ -12,9 +12,9 @@
     }
     
     .Button:hover{ 
-    background-color: white; 
+    background-color: white;
     color: #081F2D; 
-    border-color: #081F2D; 
+    border-color: #081F2D;
     transition: 0.3s; 
    }
    @media (max-width: 1100px ){
@@ -33,3 +33,5 @@
     color: #f5f5f5; 
     border-color: #f5f5f5; 
    }
+
+ 

@@ -17,3 +17,6 @@
     margin-top: -.5em;
     
 }
+.carritoCounter:hover{
+    border: none;
+}

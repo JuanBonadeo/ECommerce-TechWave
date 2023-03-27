@@ -7,6 +7,7 @@ import Carrito from '../Carrito/Carrito'
 import DarkMode from '../DarkMode/DarkMode'
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom'
 
 
 
@@ -24,30 +25,28 @@ const NavBar = () => {
                   <ul>
                     <li >
                         <NavDropdown className='Dropdown'>
-                            <NavDropdown.Item href="">Apple</NavDropdown.Item>
-                            <NavDropdown.Item href="">Xiaomi</NavDropdown.Item>
-                            <NavDropdown.Item href="">Samsung</NavDropdown.Item>
+                            <NavDropdown.Item ><Link to='/category/parlantes'>Apple</Link></NavDropdown.Item>
+                            <Link><NavDropdown.Item >Xiaomi</NavDropdown.Item></Link>
+                            <Link><NavDropdown.Item >Samsung</NavDropdown.Item></Link>
                         </NavDropdown>
-                        <ButtonNav label="Celulares"/>
+                        <ButtonNav label="Celulares" to='/supcategory/celulares'/>
                     </li>
                     <li>
                         <NavDropdown className='Dropdown'>
-                            <NavDropdown.Item href="">Mac</NavDropdown.Item>
                             <NavDropdown.Item href="">Latops</NavDropdown.Item>
                             <NavDropdown.Item href="">PC Gamers</NavDropdown.Item>
                             <NavDropdown.Item href="">Componentes</NavDropdown.Item>
                         </NavDropdown>
-                        <ButtonNav label="Computacion"/>
+                        <ButtonNav label="Computacion" to='/supcategory/computacion'/>
                     </li>
                     <li>
                         <NavDropdown className='Dropdown'>
-                            <NavDropdown.Item href="">Auriculares inEar</NavDropdown.Item>
-                            <NavDropdown.Item href="">Auriculares Gamer</NavDropdown.Item>
+                            <NavDropdown.Item href="">Auriculares</NavDropdown.Item>
                             <NavDropdown.Item href="">Parlantes</NavDropdown.Item>
                             <NavDropdown.Item href="">Monitores</NavDropdown.Item>
                             <NavDropdown.Item href="">Televisores</NavDropdown.Item>
                         </NavDropdown>
-                        <ButtonNav label="Audio & Video"/>
+                        <ButtonNav label="Audio & Video" to='/supcategory/audio&video'/>
                     </li>
                     <li>
                         <NavDropdown className='Dropdown'>
@@ -57,13 +56,13 @@ const NavBar = () => {
                             <NavDropdown.Item href="">SmartWatches</NavDropdown.Item>
                             <NavDropdown.Item href="">Conectividad</NavDropdown.Item>
                         </NavDropdown>
-                        <ButtonNav label="Accesorios"/>
+                        <ButtonNav label="Accesorios" to='/supcategory/accesorios'/>
                     </li>
                   </ul>  
                 </div>
             </div>
             <div className="fixedNav">
-                <ButtonIcon icon={faHome} talla="lg"/>
+                <ButtonIcon icon={faHome} talla="lg" to={`/`}/>
                 <Searcher/> 
                 <Carrito/>
             </div>

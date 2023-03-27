@@ -1,0 +1,46 @@
+.ProductPageContainer{
+    max-width: 1000px;
+    width: max-content;
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+    background-color:#1a70a5;
+}.backgroundGey{
+    background-color: #ededed;
+}
+
+.ProdcutInfoImg{
+    width: 35em;
+    height: 35em;
+    object-fit: scale-down;
+    background-color: white;
+    
+}.carouselContainer{
+    width: 35em;
+    height: 35em;
+    background-color: #ededed;
+}
+
+.detail2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: max-content;
+}.detail2 h2{
+    font-size: 2em;
+    text-align: center;
+    
+    color: #ededed;
+}.detail2 h3{
+    font-size: 1.3em;
+}.detail3{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-top: 2em;
+}.detail2 p {
+    font-size: smaller;
+    padding: .5em;
+    text-align: center;
+}

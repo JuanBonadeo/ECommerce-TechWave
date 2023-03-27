@@ -3,9 +3,9 @@ import '../ProductCard/ProductCard.css'
 import CarritoIcon from '../Carrito/CarritoIcon'
 import Button from '../Buttons/Buttons/Buttons'
 import Carousel from 'react-bootstrap/esm/Carousel'
+import { Link, useParams } from 'react-router-dom';
 
-
-const ProductCard = ({nombre, img1, img2, img3, precio}) =>{
+const ProductCard = ({nombre, img1, img2, img3, precio, id}) =>{
     const [index, setIndex] = useState(0);
       
     const handleSelect = (selectedIndex, e) => {
@@ -31,7 +31,7 @@ const ProductCard = ({nombre, img1, img2, img3, precio}) =>{
                 <CarritoIcon/>
             </div>
             <div className='Info2'>
-            <Button label="Más Info"/>
+            <Button to={`ProductPage/${id}`}label="Más Info"/>
             </div>
         </div>
     )

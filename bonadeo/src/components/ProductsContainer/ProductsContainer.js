@@ -1,19 +1,55 @@
 import './ProductsContainer.css'
 import { useEffect, useState } from 'react'
-import { getProducts } from "../../async.Mock"
+import { getProducts,getProductsByCategory, getProductsByFabricante, getProductsBySupCategory } from "../../async.Mock"
 import ProductList from '../ProductList/ProductList'
 import Pagination from '../Pagination/Pagination'
 import OrderList from '../OrderList/OrderList'
+import { useParams } from 'react-router-dom'
 
 const ProductsContainer = () =>{
     const [products, setProducts] = useState([])
 
+    const { categoryId } = useParams()
+
     useEffect(() => {
-        getProducts()
+        const asyncFunction = categoryId ? getProductsByCategory : getProducts
+
+        asyncFunction(categoryId)
             .then(products => {
                 setProducts(products)
             })
-    }, [])
+            .catch(error => {
+                console.log(error)
+            })
+    }, [categoryId])
+
+    const {supcategoryId} = useParams()
+
+    useEffect(() => {
+        const asyncFunction = supcategoryId ? getProductsBySupCategory : getProducts
+
+        asyncFunction(supcategoryId)
+            .then(products => {
+                setProducts(products)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }, [supcategoryId])
+
+    const { FabricanteId } = useParams()
+
+    useEffect(() => {
+        const asyncFunction = FabricanteId ? getProductsByFabricante : getProducts
+
+        asyncFunction(FabricanteId)
+            .then(products => {
+                setProducts(products)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }, [FabricanteId])
 
     return(
         <div className='ContentContainer'>

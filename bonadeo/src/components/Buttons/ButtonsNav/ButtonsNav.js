@@ -1,7 +1,8 @@
 import '../ButtonsNav/ButtonsNav.css'
+import { Link } from 'react-router-dom'
 const ButtonNav = (props) => {
     return(
-        <a className="buttonNav">{props.label}</a>
+        <Link to={props.to} className="buttonNav">{props.label}</Link>
     )
 }
 export default ButtonNav
