@@ -24,7 +24,8 @@ function App() {
             <Route path="/supcategory/:supcategoryId/ProductPage/:productId" element={<ProductPageContainer/>}/> 
           <Route path="/fabricante/:FabricanteId" element={<MainContainer/>}/>
             <Route path="/fabricante/:FabricanteId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
-          
+          <Route path="/color/:colorId" element={<MainContainer/>}/>
+            <Route path="/color/:colorId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
           
 
         </Routes>

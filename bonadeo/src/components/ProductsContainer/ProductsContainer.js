@@ -1,6 +1,6 @@
 import './ProductsContainer.css'
 import { useEffect, useState } from 'react'
-import { getProducts,getProductsByCategory, getProductsByFabricante, getProductsBySupCategory } from "../../async.Mock"
+import { getProducts,getProductsByCategory, getProductsByFabricante, getProductsBySupCategory, getProductsBycolor, getProductsByPrice } from "../../async.Mock"
 import ProductList from '../ProductList/ProductList'
 import Pagination from '../Pagination/Pagination'
 import OrderList from '../OrderList/OrderList'
@@ -50,6 +50,22 @@ const ProductsContainer = () =>{
                 console.log(error)
             })
     }, [FabricanteId])
+
+    const { colorId } = useParams()
+
+    useEffect(() => {
+        const asyncFunction = colorId ? getProductsBycolor : getProducts
+
+        asyncFunction(colorId)
+            .then(products => {
+                setProducts(products)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }, [colorId])
+
+    
 
     return(
         <div className='ContentContainer'>

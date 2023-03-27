@@ -25,36 +25,37 @@ const NavBar = () => {
                   <ul>
                     <li >
                         <NavDropdown className='Dropdown'>
-                            <NavDropdown.Item ><Link to='/category/parlantes'>Apple</Link></NavDropdown.Item>
-                            <Link><NavDropdown.Item >Xiaomi</NavDropdown.Item></Link>
-                            <Link><NavDropdown.Item >Samsung</NavDropdown.Item></Link>
+                            <NavDropdown.Item ><Link to='/category/celularesApple'>Apple</Link></NavDropdown.Item>
+                            <Link><NavDropdown.Item ><Link to='/category/celularesXiaomi'>Xiaomi</Link></NavDropdown.Item></Link>
+                            <Link><NavDropdown.Item ><Link to='/category/celularesSamsung'>Samsung</Link></NavDropdown.Item></Link>
                         </NavDropdown>
                         <ButtonNav label="Celulares" to='/supcategory/celulares'/>
                     </li>
                     <li>
                         <NavDropdown className='Dropdown'>
-                            <NavDropdown.Item href="">Latops</NavDropdown.Item>
-                            <NavDropdown.Item href="">PC Gamers</NavDropdown.Item>
-                            <NavDropdown.Item href="">Componentes</NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/laptops'>Latops</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/consolas'>Consolas</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/componentes'>Componentes</Link></NavDropdown.Item>
                         </NavDropdown>
                         <ButtonNav label="Computacion" to='/supcategory/computacion'/>
                     </li>
                     <li>
                         <NavDropdown className='Dropdown'>
-                            <NavDropdown.Item href="">Auriculares</NavDropdown.Item>
-                            <NavDropdown.Item href="">Parlantes</NavDropdown.Item>
-                            <NavDropdown.Item href="">Monitores</NavDropdown.Item>
-                            <NavDropdown.Item href="">Televisores</NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/auriculares'>Auriculares</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/parlantes'>Parlantes</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/monitores'>Monitores</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/televisores'>Televisores</Link></NavDropdown.Item>
                         </NavDropdown>
                         <ButtonNav label="Audio & Video" to='/supcategory/audio&video'/>
                     </li>
                     <li>
                         <NavDropdown className='Dropdown'>
-                            <NavDropdown.Item href="">Mouses</NavDropdown.Item>
-                            <NavDropdown.Item href="">Teclados</NavDropdown.Item>
-                            <NavDropdown.Item href="">MousePad</NavDropdown.Item>
-                            <NavDropdown.Item href="">SmartWatches</NavDropdown.Item>
-                            <NavDropdown.Item href="">Conectividad</NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/mouses'>Mouses</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/teclados'>Teclados</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/mouspads'>MousePads</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/smartwatches'>SmartWatches</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/conectividad'>Conectividad</Link></NavDropdown.Item>
+                            <NavDropdown.Item href=""><Link to='/category/sillas'>Sillas</Link></NavDropdown.Item>
                         </NavDropdown>
                         <ButtonNav label="Accesorios" to='/supcategory/accesorios'/>
                     </li>
