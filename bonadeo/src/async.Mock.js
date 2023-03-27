@@ -193,6 +193,19 @@ const products = [
         color: 'gris',
         fabricante: 'samsung',
         supcategoria:'accesorios'
+      },
+      {
+        id: '17',
+        nombre: 'Mouse Gamer Razer Viper 8KHz verde y negro',
+        precio: 30400,
+        categoria: 'mouses',
+        img1: 'https://http2.mlstatic.com/D_NQ_NP_2X_986153-MLA46794624798_072021-F.webp',
+        img2: 'https://http2.mlstatic.com/D_NQ_NP_2X_644396-MLA46794744569_072021-F.webp',
+        img3: 'https://http2.mlstatic.com/D_NQ_NP_2X_607184-MLA46794654741_072021-F.webp',
+        descripcion: 'Adaptado a tus movimientos El mouse de juego te ofrecerá la posibilidad de marcar la diferencia y sacar ventajas en tus partidas. Su conectividad y sensor suave ayudará a que te desplaces rápido por la pantalla.',
+        color: 'verde',
+        fabricante: 'razer',
+        supcategoria:'accesorios'
       }
 
 ]
