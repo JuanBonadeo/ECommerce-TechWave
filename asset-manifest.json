@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//ECommerce-TechWave/static/css/main.cac69382.css",
-    "main.js": "//ECommerce-TechWave/static/js/main.7a4fdf04.js",
-    "static/js/787.e61a3ff3.chunk.js": "//ECommerce-TechWave/static/js/787.e61a3ff3.chunk.js",
-    "static/media/hero1.jpg": "//ECommerce-TechWave/static/media/hero1.255d280d24bedc737e9c.jpg",
-    "index.html": "//ECommerce-TechWave/index.html",
-    "main.cac69382.css.map": "//ECommerce-TechWave/static/css/main.cac69382.css.map",
-    "main.7a4fdf04.js.map": "//ECommerce-TechWave/static/js/main.7a4fdf04.js.map",
-    "787.e61a3ff3.chunk.js.map": "//ECommerce-TechWave/static/js/787.e61a3ff3.chunk.js.map"
+    "main.css": "/ECommerce-TechWave/static/css/main.7c4ff2fd.css",
+    "main.js": "/ECommerce-TechWave/static/js/main.575c962f.js",
+    "static/js/787.e61a3ff3.chunk.js": "/ECommerce-TechWave/static/js/787.e61a3ff3.chunk.js",
+    "static/media/hero1.jpg": "/ECommerce-TechWave/static/media/hero1.255d280d24bedc737e9c.jpg",
+    "index.html": "/ECommerce-TechWave/index.html",
+    "main.7c4ff2fd.css.map": "/ECommerce-TechWave/static/css/main.7c4ff2fd.css.map",
+    "main.575c962f.js.map": "/ECommerce-TechWave/static/js/main.575c962f.js.map",
+    "787.e61a3ff3.chunk.js.map": "/ECommerce-TechWave/static/js/787.e61a3ff3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cac69382.css",
-    "static/js/main.7a4fdf04.js"
+    "static/css/main.7c4ff2fd.css",
+    "static/js/main.575c962f.js"
   ]
 }
