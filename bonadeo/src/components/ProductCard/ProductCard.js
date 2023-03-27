@@ -31,7 +31,7 @@ const ProductCard = ({nombre, img1, img2, img3, precio, id}) =>{
                 <CarritoIcon/>
             </div>
             <div className='Info2'>
-            <Button to={`ProductPage/${id}`}label="Más Info"/>
+            <Button to={`/ECommerce-TechWave/ProductPage/${id}`}label="Más Info"/>
             </div>
         </div>
     )

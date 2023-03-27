@@ -14,7 +14,7 @@ const Hero1 = () =>{
           />
           <Carousel.Caption className='HeroCaption HeroCaption1'>
             <h3>Los mejores smartphones</h3>
-            <Button to='/supcategory/celulares' label="Ver Mas"></Button>
+            <Button to='/ECommerce-TechWave/supcategory/celulares' label="Ver Mas"></Button>
           </Carousel.Caption>
         </Carousel.Item> 
 
@@ -27,7 +27,7 @@ const Hero1 = () =>{
   
           <Carousel.Caption className='HeroCaption HeroCaption2'>
             <h3>GeForce RTX Serie 40</h3>
-            <Button to='/Fabricante/geforce' label="Ver Mas"></Button>
+            <Button to='/ECommerce-TechWave/Fabricante/geforce' label="Ver Mas"></Button>
           </Carousel.Caption>
         </Carousel.Item>
         
@@ -40,7 +40,7 @@ const Hero1 = () =>{
   
           <Carousel.Caption className='HeroCaption HeroCaption2'>
             <h3>RAZER PC Accesories</h3>
-            <Button to='/Fabricante/razer' label="Ver Mas"></Button>
+            <Button to='/ECommerce-TechWave/Fabricante/razer' label="Ver Mas"></Button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

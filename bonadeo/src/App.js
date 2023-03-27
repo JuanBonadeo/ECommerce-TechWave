@@ -16,16 +16,16 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <Routes>
-          <Route path="/" element={<HomeView/>}/>
-            <Route path="/ProductPage/:productId" element={<ProductPageContainer/>}/>   
-          <Route path="/category/:categoryId" element={<MainContainer/>}/>
-            <Route path="/category/:categoryId/ProductPage/:productId" element={<ProductPageContainer/>}/> 
-          <Route path="/supcategory/:supcategoryId" element={<MainContainer/>}/>
-            <Route path="/supcategory/:supcategoryId/ProductPage/:productId" element={<ProductPageContainer/>}/> 
-          <Route path="/fabricante/:FabricanteId" element={<MainContainer/>}/>
-            <Route path="/fabricante/:FabricanteId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
-          <Route path="/color/:colorId" element={<MainContainer/>}/>
-            <Route path="/color/:colorId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
+          <Route path="/ECommerce-TechWave" element={<HomeView/>}/>
+            <Route path="/ECommerce-TechWave/ProductPage/:productId" element={<ProductPageContainer/>}/>   
+            <Route path="/ECommerce-TechWave/category/:categoryId" element={<MainContainer/>}/>
+              <Route path="category/:categoryId/ProductPage/:productId" element={<ProductPageContainer/>}/> 
+            <Route path="/ECommerce-TechWave/supcategory/:supcategoryId" element={<MainContainer/>}/>
+              <Route path="supcategory/:supcategoryId/ProductPage/:productId" element={<ProductPageContainer/>}/> 
+            <Route path="/ECommerce-TechWave/fabricante/:FabricanteId" element={<MainContainer/>}/>
+              <Route path="fabricante/:FabricanteId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
+            <Route path="/ECommerce-TechWave/color/:colorId" element={<MainContainer/>}/>
+              <Route path="color/:colorId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
           
 
         </Routes>

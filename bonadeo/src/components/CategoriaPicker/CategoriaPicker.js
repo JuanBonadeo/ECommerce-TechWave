@@ -14,19 +14,19 @@ import { Link } from 'react-router-dom';
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
                         <div className='SideBarSubItems SideBarSubItemsC'>
-                            <Link to='/supcategory/celulares'><p>Celulares</p></Link>
-                            <Link to='/category/laptops'><p>Laptops</p></Link>
-                            <Link to='/category/pcgamer'><p>Pc Gamer</p></Link>
-                            <Link to='/category/componentes'><p>Componentes</p> </Link>
-                            <Link to='/category/auriculares'><p>Auriculares</p> </Link>
-                            <Link to='/category/parlantes'><p>Parlantes</p> </Link>
-                            <Link to='/category/monitores'><p>Monitores</p> </Link>
-                            <Link to='/category/televisores'><p>Televisores</p> </Link>
-                            <Link to='/category/mouses'><p>Mouses</p> </Link>
-                            <Link to='/category/teclados'><p>Teclados</p> </Link>
-                            <Link to='/category/mousepads'><p>Mousepads</p> </Link>
-                            <Link to='/category/smartwatches'><p>Smartwatches</p> </Link>
-                            <Link to='/category/conectividad'><p>Conectividad</p> </Link>
+                            <Link to='/ECommerce-TechWave/supcategory/celulares'><p>Celulares</p></Link>
+                            <Link to='/ECommerce-TechWave/category/laptops'><p>Laptops</p></Link>
+                            <Link to='/ECommerce-TechWave/category/consolas'><p>Consolas</p></Link>
+                            <Link to='/ECommerce-TechWave/category/componentes'><p>Componentes</p> </Link>
+                            <Link to='/ECommerce-TechWave/category/auriculares'><p>Auriculares</p> </Link>
+                            <Link to='/ECommerce-TechWave/category/parlantes'><p>Parlantes</p> </Link>
+                            <Link to='/ECommerce-TechWave/category/monitores'><p>Monitores</p> </Link>
+                            <Link to='/ECommerce-TechWave/category/televisores'><p>Televisores</p> </Link>
+                            <Link to='/ECommerce-TechWave/category/mouses'><p>Mouses</p> </Link>
+                            <Link to='/ECommerce-TechWave/category/teclados'><p>Teclados</p> </Link>
+                            <Link to='/ECommerce-TechWave/category/mousepads'><p>Mousepads</p> </Link>
+                            <Link to='/ECommerce-TechWave/category/smartwatches'><p>Smartwatches</p> </Link>
+                            <Link to='/ECommerce-TechWave/category/conectividad'><p>Conectividad</p> </Link>
                         </div>
                     </Accordion.Collapse>
                 </Accordion>

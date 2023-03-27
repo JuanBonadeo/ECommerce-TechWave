@@ -13,16 +13,16 @@ import { Link } from 'react-router-dom';
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                     <div className='SideBarSubItemsC'>
-                        <Link to='/fabricante/apple'><p>Apple</p></Link>
-                        <Link to='/fabricante/motorola'><p>Motorola</p></Link>
-                        <Link to='/fabricante/samsung'><p>Samsung</p></Link>
-                        <Link to='/fabricante/xiaomi'><p>Xiaomi</p> </Link>
-                        <Link to='/fabricante/logitech'><p>Logitech</p></Link>
-                        <Link to='/fabricante/sony'><p>Sony</p></Link>
-                        <Link to='/fabricante/redragon'><p>Redragon</p></Link>
-                        <Link to='/fabricante/acer'><p>Acer</p> </Link>
-                        <Link to='/fabricante/lenovo'><p>Lenovo</p></Link>
-                        <Link to='/fabricante/razer'><p>Razer</p></Link>
+                        <Link to='/ECommerce-TechWave/fabricante/apple'><p>Apple</p></Link>
+                        <Link to='/ECommerce-TechWave/fabricante/motorola'><p>Motorola</p></Link>
+                        <Link to='/ECommerce-TechWave/fabricante/samsung'><p>Samsung</p></Link>
+                        <Link to='/ECommerce-TechWave/fabricante/xiaomi'><p>Xiaomi</p> </Link>
+                        <Link to='/ECommerce-TechWave/fabricante/logitech'><p>Logitech</p></Link>
+                        <Link to='/ECommerce-TechWave/fabricante/sony'><p>Sony</p></Link>
+                        <Link to='/ECommerce-TechWave/fabricante/redragon'><p>Redragon</p></Link>
+                        <Link to='/ECommerce-TechWave/fabricante/acer'><p>Acer</p> </Link>
+                        <Link to='/ECommerce-TechWave/fabricante/lenovo'><p>Lenovo</p></Link>
+                        <Link to='/ECommerce-TechWave/fabricante/razer'><p>Razer</p></Link>
                     </div>
                     </Accordion.Collapse>
                 </Accordion>
