@@ -118,7 +118,7 @@ const products = [
       },
       {
         id: '10',
-        nombre: 'Smart TV LG 55" 4K UHD',
+        nombre: 'Smart TV LG 55 pulgadas 4K UHD',
         precio: 325000,
         categoria: 'televisores',
         img1: 'https://http2.mlstatic.com/D_NQ_NP_2X_749310-MLA53433735956_012023-F.webp',
@@ -144,7 +144,7 @@ const products = [
       },
       {
         id: '13',
-        nombre: 'Tablet Apple iPad Pro 11"',
+        nombre: 'Tablet Apple iPad Pro 11 gris 256gb',
         precio: 330000,
         categoria: 'tablets',
         img1: 'https://http2.mlstatic.com/D_NQ_NP_2X_796676-MLA46975166147_082021-F.webp',
@@ -157,7 +157,7 @@ const products = [
       },
       {
         id: '14',
-        nombre: 'Consola Xbox Series X',
+        nombre: 'Consola Xbox Series X negra con un control 516gb',
         precio: 195000,
         categoria: 'consolas',
         img1: 'https://http2.mlstatic.com/D_NQ_NP_2X_963862-MLA45041918050_032021-F.webp',

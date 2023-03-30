@@ -7,13 +7,20 @@ import HomeView from './components/HomeView/HomeView';
 import Footer from './components/Footer/Footer';
 import MainContainer from './components/MainContainer/MainContainer';
 import ProductPageContainer from './components/ProudctPageContainer/ProudctPageContainer';
-import Carrito from './components/Carrito/Carrito';
+import ProductosCarrito from './components/ProductosCarrito/ProductosCarrito';
+import { CartProvider } from './context/CartContext';
+
+
+
+
 
 
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>
+      <CartProvider>
         <NavBar/>
         <Routes>
           <Route path="/ECommerce-TechWave" element={<HomeView/>}/>
@@ -26,10 +33,10 @@ function App() {
               <Route path="fabricante/:FabricanteId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
             <Route path="/ECommerce-TechWave/color/:colorId" element={<MainContainer/>}/>
               <Route path="color/:colorId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
-          
-
+            <Route path='/ECommerce-TechWave/carrito' element={<ProductosCarrito/>}/>
         </Routes>
         <Footer/>
+      </CartProvider>    
       </BrowserRouter>
       
     </div>

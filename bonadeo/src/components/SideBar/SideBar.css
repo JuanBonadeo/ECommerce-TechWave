@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: start;
 }.SideBarItem div p{
-    font-size: .8em;
+    font-size: 1em;
     color: #a5a5a5;
     margin-bottom: .3em;
     cursor: pointer;
@@ -31,4 +31,11 @@
     align-items: baseline;
     gap: .2em;
 }
-
+@media (max-width: 700px ){
+    .SideBarContainer{
+    
+        border-bottom: solid 1.5px #081F2D;
+        padding: 1em 0em;
+    }
+    
+  }

@@ -1,0 +1,9 @@
+.carritoProductsContainer{
+    background-color: #e6e6e6;
+    min-height: 30em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    padding: 1em 0;
+}

@@ -18,23 +18,39 @@
 }
 @media (max-width: 1100px ){
 
-.Hero1Container{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    background-color: black;
-    height: 80vh;
-    background-image: url(../Hero1/images/hero1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}.Hero1Container h2{
-    font-size: 1.4em;
-    color: #e3e3e3;
-    max-width: 12em;
-    margin-left: 0;
-    margin-bottom: 6em;
-}
+    .HeroCaption h3{
+        font-size: 2em;
+        color: #e3e3e3;
+        margin-left: 0em;
+        margin-bottom: 0em;
+    }.HeroCaption1 h3{
+        font-size: 2em;
+        color: #e3e3e3;
+        margin-left: 0em;
+        margin-bottom: 0em;
+    }.HeroCaption2 button{
+        margin-bottom: 1em;
+        margin: auto;
+    }
 
+}
+@media (max-width: 680px ){
+    .Hero1Container{
+        height: fit-content;
+    }
+    .HeroCaption h3{
+        font-size: 1.3em;
+        color: #e3e3e3;
+        margin-left: 0em;
+        margin-bottom: 0em;
+    }.HeroCaption1 h3{
+        font-size: 1.3em;
+        color: #e3e3e3;
+        margin-left: 0em;
+        margin-bottom: 0em;
+    }.HeroCaption2 button{
+        margin-bottom: .3em;
+        margin: auto;
+    }
 
 }

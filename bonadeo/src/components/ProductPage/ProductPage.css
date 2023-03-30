@@ -44,3 +44,42 @@
     padding: .5em;
     text-align: center;
 }
+@media (max-width: 1100px){
+    .backgroundGey{
+        background-color: #1a70a5;
+    }
+    .ProductPageContainer{
+        max-width: 800px;
+        width: max-content;
+    }
+    .ProdcutInfoImg{
+        width: 20em;
+        height: 25em;
+    }.carouselContainer{
+        width: 20em;
+        height: 25em;
+    }.detail2 h2{
+        font-size: 1em;
+        max-width: 15em;
+    }.detail2 h3{
+        font-size: .9em;
+    }.detail3{
+        margin-top: 1em;
+    }.detail2 p {
+        max-width: 18em;
+    }
+    
+  }
+  @media (max-width: 700px ){
+    .ProductPageContainer{
+       flex-direction: column;
+    }
+}  @media (max-width: 380px ){
+    .ProdcutInfoImg{
+        width: 15em;
+        height: 20em;
+    }.carouselContainer{
+        width: 15em;
+        height: 20em;
+    }
+}

@@ -3,3 +3,12 @@
     grid-template-columns: 1fr 2fr 1fr; 
     grid-gap: 20px; 
   }
+@media (max-width: 770px ){
+  .ContentHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    padding: 0;
+  }
+}

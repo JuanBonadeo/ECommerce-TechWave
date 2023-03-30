@@ -15,3 +15,8 @@ transition: 350ms ease-in;
     align-items: center;
     margin-top: 3em;
 }
+@media (max-width: 900px){
+    .SelectOrderContainer{
+        margin: 0;
+    }
+}

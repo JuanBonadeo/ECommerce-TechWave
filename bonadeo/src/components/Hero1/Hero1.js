@@ -44,6 +44,7 @@ const Hero1 = () =>{
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      
 
     )
 }
