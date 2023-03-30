@@ -33,7 +33,7 @@ function App() {
               <Route path="fabricante/:FabricanteId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
             <Route path="/ECommerce-TechWave/color/:colorId" element={<MainContainer/>}/>
               <Route path="color/:colorId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
-            <Route path='/ECommerce-TechWave/carrito' element={<ProductosCarrito/>}/>
+            <Route path='/ECommerce-TechWave/carrito' element={<h1>Estos son tus prductos en carrito</h1>}/>
         </Routes>
         <Footer/>
       </CartProvider>    
