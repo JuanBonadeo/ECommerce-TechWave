@@ -7,8 +7,8 @@ import HomeView from './components/HomeView/HomeView';
 import Footer from './components/Footer/Footer';
 import MainContainer from './components/MainContainer/MainContainer';
 import ProductPageContainer from './components/ProudctPageContainer/ProudctPageContainer';
-import ProductosCarrito from './components/ProductosCarrito/ProductosCarrito';
 import { CartProvider } from './context/CartContext';
+import ProductsContainerCarrito from './components/ProductsContainerCarrito/ProductsContainerCarrito';
 
 
 
@@ -33,7 +33,7 @@ function App() {
               <Route path="fabricante/:FabricanteId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
             <Route path="/ECommerce-TechWave/color/:colorId" element={<MainContainer/>}/>
               <Route path="color/:colorId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
-            <Route path='/ECommerce-TechWave/carrito' element={<ProductosCarrito/>}/>
+            <Route path='/ECommerce-TechWave/carrito' element={<ProductsContainerCarrito/>}/>
         </Routes>
         <Footer/>
       </CartProvider>    

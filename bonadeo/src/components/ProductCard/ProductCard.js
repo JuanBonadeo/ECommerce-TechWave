@@ -9,16 +9,13 @@ import { useCart } from '../../context/CartContext';
 
 
 const ProductCard = ({nombre, img1, img2, img3, precio, id}) =>{
-
      const { addItem, isInCart } = useCart()
-
      const handleOnAdd = (quantity) => {
         const productToAdd = {
             id, nombre, precio, quantity
         }
         addItem(productToAdd)
-        alert(`Este prducto ah sido agregado ${nombre} al carrito`)
-    }
+    } 
 
     const [index, setIndex] = useState(0);
     const handleSelect = (selectedIndex, e) => {
