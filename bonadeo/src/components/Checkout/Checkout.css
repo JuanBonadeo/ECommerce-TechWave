@@ -1,0 +1,35 @@
+.Allscreen{
+    height: 99.9vh;
+    width: 99vw;
+    position: absolute;
+    z-index: 300000000;
+    top:0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: solid 3em black;
+    
+}
+.LoginContainer{
+    display: flex;
+    background-color: blanchedalmond;
+    height: 20em;
+    width: 20em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    gap: .5em;
+    
+}.login {
+    background-image: none;
+}
+.LoginContainer form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

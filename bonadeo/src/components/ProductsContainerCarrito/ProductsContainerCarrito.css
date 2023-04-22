@@ -1,0 +1,19 @@
+.ContentContainerCarrito{
+  margin: auto;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+.cartContainer{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  background-color: rgba(169, 169, 169, 0.274);
+  padding: .5em;
+  margin-bottom: 1em;
+  border-radius: 5px
+}.carritoImage{
+  border-radius: 10px
+}

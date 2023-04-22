@@ -5,7 +5,6 @@
     border: none;
     align-items: baseline;
 }
-
 .SideBarItem .SideBarSubItemsC{
     display: flex;
     flex-direction: column;

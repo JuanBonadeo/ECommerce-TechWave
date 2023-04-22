@@ -1,6 +1,4 @@
 import '../Carrito/Carrito.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import { useCart } from '../../context/CartContext'
 
@@ -14,7 +12,7 @@ const Carrito = (props) => {
         <Link  to='/ECommerce-TechWave/carrito'>
             <button className="buttonIcon carrito">
                 <p className='carritoCounter'>{totalQuantity}</p>
-                <FontAwesomeIcon icon={faCartShopping} size="lg"/>   
+                <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Font_Awesome_5_solid_shopping-cart.svg/30px-Font_Awesome_5_solid_shopping-cart.svg.png'/>   
             </button>
         </Link></>
     )

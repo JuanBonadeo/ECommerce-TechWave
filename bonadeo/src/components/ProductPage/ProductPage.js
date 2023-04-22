@@ -2,11 +2,9 @@ import '../ProductPage/ProductPage.css'
 import Carousel from 'react-bootstrap/esm/Carousel'
 import CarritoIcon from '../Carrito/CarritoIcon'
 import { useState } from 'react'
-import ColorPicker from '../ColorPicker/ColorPicker'
 import { useCart } from '../../context/CartContext'
 
-
-const ProductPage = ({id, nombre, precio, categoria, img1,img2,img3, descripcion, color}) => {
+const ProductPage = ({id, nombre, precio, categoria, img1,img2,img3, descripcion, color, fabricante}) => {
         const [index, setIndex] = useState(0);
 
         const handleSelect = (selectedIndex, e) => {
@@ -16,12 +14,11 @@ const ProductPage = ({id, nombre, precio, categoria, img1,img2,img3, descripcion
       const { addItem, isInCart } = useCart()
 
       const handleOnAdd = (quantity) => {
-         const productToAdd = {
-             id, nombre, precio, quantity
-         }
-         alert(`Este prducto ah sido agregado ${nombre} al carrito`)
-         addItem(productToAdd)
-     }
+        const productToAdd = {
+            id, nombre, precio, quantity,img1,img2,img3
+        }
+        addItem(productToAdd)
+    } 
     return (
         <div className='backgroundGey'>
         <div className='ProductPageContainer'>
@@ -44,8 +41,9 @@ const ProductPage = ({id, nombre, precio, categoria, img1,img2,img3, descripcion
                     <h3 className='PrecioProducto'>${precio}</h3>
                     <CarritoIcon talla='xl' onAdd={handleOnAdd}/>
                 </div>
-                <ColorPicker/>
+                <h3>Color: {color}</h3>
                 <h3>Categoria: {categoria}</h3>
+                <h3>Fabricante: {fabricante}</h3>
                 <p>{descripcion}</p>
                 
             </div>

@@ -9,6 +9,8 @@ import MainContainer from './components/MainContainer/MainContainer';
 import ProductPageContainer from './components/ProudctPageContainer/ProudctPageContainer';
 import { CartProvider } from './context/CartContext';
 import ProductsContainerCarrito from './components/ProductsContainerCarrito/ProductsContainerCarrito';
+import Checkout from './components/Checkout/Checkout';
+import ContactForm from './components/ContactForm/ContactForm';
 
 
 
@@ -16,7 +18,7 @@ import ProductsContainerCarrito from './components/ProductsContainerCarrito/Prod
 
 
 function App() {
-  
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -34,17 +36,15 @@ function App() {
             <Route path="/ECommerce-TechWave/color/:colorId" element={<MainContainer/>}/>
               <Route path="color/:colorId/ProductPage/:productId" element={<ProductPageContainer/>}/>   
             <Route path='/ECommerce-TechWave/carrito' element={<ProductsContainerCarrito/>}/>
+            <Route path='/ECommerce-TechWave/buscar/:search' element={<MainContainer/>}/>
+            <Route path='/ECommerce-TechWave/Checkout' element={<Checkout/>}/>
+            <Route path='/ECommerce-TechWave/ContactForm' element={<ContactForm/>}/>
         </Routes>
         <Footer/>
-      </CartProvider>    
+      </CartProvider>   
       </BrowserRouter>
       
     </div>
   );
 }
-
-
-
-            
-
 export default App;

@@ -2,6 +2,7 @@
     border: none;
     background: none;
     cursor: pointer;
+    color: black;
   }.padding{
     padding: .3em;
   }

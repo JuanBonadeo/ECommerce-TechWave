@@ -3,13 +3,16 @@ import Accordion from 'react-bootstrap/Accordion';
 import ButtonIcon from '../Buttons/ButtonIcon/ButtonIcon';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+
+
  const FabricantePicker = () => {
+    
     return (
             <div className='SideBarItem'>
-                <Accordion ActiveKey="0">
+                <Accordion>
                     <Accordion.Toggle  eventKey="0" className='Toggle'>
                         <h5>Fabricante</h5>
-                        <ButtonIcon icon={faArrowDown} talla="2xs"/>
+                        <ButtonIcon iconUrl="https://cdn-icons-png.flaticon.com/512/61/61932.png" h="10px" w="10px"/>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                     <div className='SideBarSubItemsC'>

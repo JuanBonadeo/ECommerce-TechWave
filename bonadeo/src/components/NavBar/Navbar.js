@@ -15,19 +15,24 @@ const NavBar = () => {
     return (
         <nav>
             <div className="Nav">
+                <div className="fixedNav">
+                     <ButtonIcon iconUrl="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/black_repicthousebase_1484336385-1.png" h="35px" w="35px" to={`/ECommerce-TechWave`}/> 
+                    <Searcher/> 
+                    <Carrito/>
+                </div>
                 <div className="upNav">
                     <DarkMode/>
                     <h1 className=''>TECHWAVE</h1>
-                    <Button  label="Iniciar Sesion"> </Button>
+                    <Button to='/ECommerce-TechWave/ContactForm'  label="Iniciar Sesion"> </Button>
                 </div>
                 
                 <div className="categorias">   
                   <ul>
                     <li >
                         <NavDropdown className='Dropdown'>
-                            <NavDropdown.Item ><Link to='/category/celularesApple'>Apple</Link></NavDropdown.Item>
-                            <Link><NavDropdown.Item ><Link to='/ECommerce-TechWave/category/celularesXiaomi'>Xiaomi</Link></NavDropdown.Item></Link>
-                            <Link><NavDropdown.Item ><Link to='/ECommerce-TechWave/category/celularesSamsung'>Samsung</Link></NavDropdown.Item></Link>
+                            <NavDropdown.Item ><Link to='/ECommerce-TechWave/category/celularesApple'>Apple</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to='/ECommerce-TechWave/category/celularesXiaomi'>Xiaomi</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to='/ECommerce-TechWave/category/celularesSamsung'>Samsung</Link></NavDropdown.Item>
                         </NavDropdown>
                         <ButtonNav label="Celulares" to='/ECommerce-TechWave/supcategory/celulares'/>
                     </li>
@@ -62,11 +67,7 @@ const NavBar = () => {
                   </ul>  
                 </div>
             </div>
-            <div className="fixedNav">
-                <ButtonIcon icon={faHome} talla="lg" to={`/ECommerce-TechWave`}/>
-                <Searcher/> 
-                <Carrito/>
-            </div>
+            
         </nav>
     )
 }

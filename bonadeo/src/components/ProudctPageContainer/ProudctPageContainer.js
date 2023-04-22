@@ -1,8 +1,11 @@
 
 import { useState, useEffect } from 'react'
-import { getProductById } from '../../async.Mock'
+
 import { useParams } from 'react-router-dom'
 import ProductPage from '../ProductPage/ProductPage'
+
+import { getDoc, doc } from 'firebase/firestore'
+import { db } from '../../servicio/firebase/firebaseConfig'
 
 const ProductPageContainer = () => {
     const [product, setProduct] = useState()
@@ -11,11 +14,20 @@ const ProductPageContainer = () => {
 
 
     useEffect(() => {
-        getProductById(productId).then(response => {
-            setProduct(response)
-        }).catch(error => {
-            console.log(error)
-        })
+        const productRef = doc(db, 'products', productId)
+
+        getDoc(productRef)
+            .then(snapshot => {
+                console.log(snapshot)
+                const data = snapshot.data()
+                const productAdapted = { id: snapshot.id, ...data}
+                setProduct(productAdapted)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+            
+
     }, [productId])
 
 
