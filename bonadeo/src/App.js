@@ -26,6 +26,7 @@ function App() {
         <NavBar/>
         <Routes>
           <Route path="/ECommerce-TechWave" element={<HomeView/>}/>
+          
             <Route path="/ECommerce-TechWave/ProductPage/:productId" element={<ProductPageContainer/>}/>   
             <Route path="/ECommerce-TechWave/category/:categoryId" element={<MainContainer/>}/>
               <Route path="category/:categoryId/ProductPage/:productId" element={<ProductPageContainer/>}/> 
@@ -39,6 +40,7 @@ function App() {
             <Route path='/ECommerce-TechWave/buscar/:search' element={<MainContainer/>}/>
             <Route path='/ECommerce-TechWave/Checkout' element={<Checkout/>}/>
             <Route path='/ECommerce-TechWave/ContactForm' element={<ContactForm/>}/>
+            <Route path='/ECommerce-TechWave/carrito' element={<h1>Estos son tus prductos en carrito</h1>}/>
         </Routes>
         <Footer/>
       </CartProvider>   
