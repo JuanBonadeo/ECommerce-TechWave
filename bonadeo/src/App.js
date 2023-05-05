@@ -1,6 +1,6 @@
 
 import './App.css';
-import {BrowserRouter, Route, Routes } from 'react-router-dom'
+import {HashRouter as BrowserRouter, Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar/Navbar'
 import HomeView from './components/HomeView/HomeView';
